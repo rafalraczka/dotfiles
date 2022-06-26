@@ -1,0 +1,4 @@
+[submodule "emacs/chemacs2"]
+	path = .config/emacs/chemacs2
+	url = https://github.com/rafalraczka/chemacs2
+	branch = main
