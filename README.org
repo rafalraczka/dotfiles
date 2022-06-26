@@ -1,0 +1,8 @@
+#+title: dotfiles
+
+This repository contains my personal configuration files.
+
+* License
+
+Copyright (C) 2022 Rafał Rączka.  Distributed under the GNU General
+Public License, Version 3.
