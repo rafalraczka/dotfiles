@@ -6,3 +6,7 @@
 	path = .config/emacs/profiles/rafalraczka-main
 	url = https://github.com/rafalraczka/emacs-config
 	branch = main
+[submodule "fonts/juliamono"]
+	path = .fonts/juliamono
+	url = https://github.com/cormullion/juliamono
+	branch = master
