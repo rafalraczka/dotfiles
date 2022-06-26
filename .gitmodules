@@ -2,3 +2,7 @@
 	path = .config/emacs/chemacs2
 	url = https://github.com/rafalraczka/chemacs2
 	branch = main
+[submodule "emacs/profiles/rafalraczka-main"]
+	path = .config/emacs/profiles/rafalraczka-main
+	url = https://github.com/rafalraczka/emacs-config
+	branch = main
