@@ -1,3 +1,5 @@
+# This file is based on the example file supplied with Dunst version 1.8.1.
+
 # See dunst(5) for all configuration options
 
 [global]
@@ -24,7 +26,9 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    # width = 300
+
+    width = 500
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -33,7 +37,9 @@
     origin = top-right
 
     # Offset from the origin
-    offset = 10x50
+    # offset = 10x50
+
+    offset = 10x20
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -89,7 +95,9 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#aaaaaa"
+    # frame_color = "#aaaaaa"
+
+    frame_color = "#000000"
 
     # Define a color for the separator.
     # possible values are:
@@ -111,7 +119,9 @@
 
     ### Text ###
 
-    font = Monospace 8
+    # font = Monospace 8
+
+    font = JuliaMono 9
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -299,17 +309,25 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
+    # background = "#285577"
+    # foreground = "#ffffff"
     timeout = 10
+
+    background = "#10387c"
+    foreground = "#ffffff"
+
     # Icon for notifications with normal urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
+    # background = "#900000"
+    # foreground = "#ffffff"
+    # frame_color = "#ff0000"
     timeout = 0
+
+    background = "#762422"
+    foreground = "#ffffff"
+
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 
