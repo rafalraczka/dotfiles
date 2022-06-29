@@ -25,6 +25,7 @@
 ;;; Code:
 
 (
+ ("no-init-file" . ((user-emacs-directory . "no-init-file")))
  ("rafalraczka-main" . ((user-emacs-directory . "rafalraczka-main")))
  )
 
